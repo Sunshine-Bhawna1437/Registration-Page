@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url('register.webp');
+  background-size: cover;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  /* background: rgba(0, 0, 0, 0.1); */
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgb(251, 248, 248);
+  border: none;
+  text-align: center;
+
+}
+
+input:focus {
+  outline: none;
+}
+.Application{
+  height: 400px;
+  width: 500px;
+  background-color: rgb(237, 167, 248);
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  left: 500px;
+  bottom: -30px;
+  
+}
+input[type="text"]{
+display: block;
+margin-bottom: 5px;
+width: 100%;
+height: 35px;
+background-color: white;
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+border-radius: 3px;
+font-size: 15px;
+color: black;
+text-align: left;
+
+}
+select {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid black; */
+  height: 35px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+  font-size: 15px;
+
+  }
+   
+  .autotext{
+    height: 200px;
+    width: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    right: 500px;
+    bottom: -400px;
+  }
+  button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+background-color: rgb(243, 233, 233);
+cursor: pointer;
+border-radius: 3px;
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset; ;
+  }
+  
